@@ -10,7 +10,7 @@ public class FinancialInvoice extends Document {
     }
 
 
-    public FinancialInvoice(int documentNumber, Date date, int sum, int code) {
+    public FinancialInvoice(String documentNumber, Date date, int sum, int code) {
         super(documentNumber, date);
         this.sum = sum;
         this.code = code;

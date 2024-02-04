@@ -9,7 +9,7 @@ public class EmployeeContract extends Document {
     public EmployeeContract() {
     }
 
-    public EmployeeContract(int documentNumber, Date date, String name, Date contractEnd) {
+    public EmployeeContract(String documentNumber, Date date, String name, Date contractEnd){
         super(documentNumber, date);
         this.name = name;
         this.contractEnd = contractEnd;

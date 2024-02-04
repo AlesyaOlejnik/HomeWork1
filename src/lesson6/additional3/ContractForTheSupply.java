@@ -10,7 +10,7 @@ public class ContractForTheSupply extends Document {
 
     }
 
-    public ContractForTheSupply(int documentNumber, Date date, String type, int amount) {
+    public ContractForTheSupply(String documentNumber, Date date, String type, int amount) {
         super(documentNumber, date);
         this.type = type;
         this.amount = amount;
